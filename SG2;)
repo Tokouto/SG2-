@@ -19,7 +19,7 @@ for i,v in pairs(keys) do
             --Whitelisted!
             print("Successfully whitelisted!")
             keyCheck = _G.Key
-            keys = "Key1"
+            keys = ""
         else
             counter = counter +1
         end
@@ -34,6 +34,7 @@ while true do
     end
     wait()
 end
+
 
 
 pcall(function()
@@ -423,3 +424,5 @@ end
 			end
 		end
 	end)
+	end)
+	
