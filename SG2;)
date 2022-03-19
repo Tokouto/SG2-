@@ -19,7 +19,7 @@ for i,v in pairs(keys) do
             --Whitelisted!
             print("Successfully whitelisted!")
             keyCheck = _G.Key
-            keys = ""
+            keys = "Key1"
         else
             counter = counter +1
         end
